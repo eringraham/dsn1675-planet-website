@@ -53,6 +53,17 @@ img {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 30em) {
+    
+      .nav li {
+        display: inline-block;
+    }
+    
+    .nav{
+        text-align: center; 
+    }    
+}
+
 @media only screen and (min-width: 40em){
 
     .nav li {
