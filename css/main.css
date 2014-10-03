@@ -53,6 +53,13 @@ img {
     text-decoration: none;
 }
 
+.subtitle {
+    text-align: center;
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
 @media only screen and (min-width: 30em) {
     
       .nav li {
@@ -61,28 +68,16 @@ img {
     
     .nav{
         text-align: center; 
-    }    
+    } 
+    
+    .title {
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 40em){
 
-    .nav li {
-        display: inline-block;
-    }
-    
     .nav{
-        text-align: center; 
+        text-align: left; 
     }    
 }
-
-@media only screen and (min-width: 60em){
-
-    .title {
-        float: left;
-    }
-      
-    .nav {
-        float: left;
-    }
-}
-
