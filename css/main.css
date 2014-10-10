@@ -45,22 +45,37 @@ img {
     padding: 0;
     list-style-type: none; 
     color: #0074D9;
+    
 }
 
 .nav a {
     display: block;
-    padding:0;
     text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #0074D9;
+    color: white;
 }
 
 .subtitle {
     text-align: center;
-    background-color: lightgray;
-    padding: 0;
-    margin: 0;
+    background-color: #e2e2e2;
 }
 
-@media only screen and (min-width: 30em) {
+.footer {
+    background-color: #ccc;
+}
+
+.sectionlight {
+    background-color: #efefef;
+}
+
+.sectionmedium {
+    background-color:#e2e2e2;
+}
+
+@media only screen and (min-width: 20em) {
     
       .nav li {
         display: inline-block;
@@ -71,7 +86,7 @@ img {
     } 
     
     .title {
-        text-align: left;
+        text-align: center;
     }
 }
 
