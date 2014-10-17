@@ -20,6 +20,27 @@ html {
   box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html { 
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+        html { 
+        font-size: 120%;
+    }    
+}
+
+@media only screen and (min-width: 120em) {
+    
+        html { 
+        font-size: 130%;
+    }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -67,6 +88,14 @@ img {
     background-color: #ccc;
 }
 
+.footer a::after {
+   content: " ·";
+}
+
+.footer li:last-child a::after {
+    content: none;
+}
+
 .sectionlight {
     background-color: #efefef;
 }
@@ -88,11 +117,45 @@ img {
     .title {
         text-align: center;
     }
+    
+    .copyright {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 40em){
 
     .nav{
         text-align: left; 
-    }    
+    }   
+    
+    .bottom-nav {
+    text-align: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
 }
+
+@media only screen and (min-width: 60em) {
+    
+    dl {
+        overflow: hidden;
+    }
+    
+    dt {
+        float: left;
+        clear: left;
+        width: 8rem;
+    }
+    
+    dd {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+}
+    
+
+
