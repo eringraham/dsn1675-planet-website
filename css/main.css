@@ -65,8 +65,7 @@ img {
 .nav {
     padding: 0;
     list-style-type: none; 
-    color: #0074D9;
-    
+    color: #0074D9;   
 }
 
 .nav a {
@@ -156,6 +155,3 @@ img {
         padding: 0;
     }
 }
-    
-
-
