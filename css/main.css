@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -81,7 +80,7 @@ img {
 }
 
 .header {
-    background-color: #ccc;
+    background-color: #F5DEB3;
     overflow: hidden;
 }
 
@@ -94,7 +93,7 @@ img {
 .nav {
     padding: 0;
     list-style-type: none; 
-    color: #0074D9;   
+    color: black;   
 }
 
 .nav a {
@@ -102,18 +101,29 @@ img {
     text-decoration: none;
 }
 
-.nav a:hover {
-    background-color: #0074D9;
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current {
+    background-color: #808080;
     color: white;
+    border-width: 1px;
+    border-color: black;
 }
 
 .subtitle {
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #FFF8DC;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #F5DEB3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
 }
 
 .footer ul a::after {
@@ -122,6 +132,16 @@ img {
 
 .footer li:last-child a::after {
     content: none;
+}
+
+img {
+    border-width: 2px;
+    border-color: black;
+}
+
+h3 {
+    border-bottom: solid;
+    border-width: thin;
 }
 
 .sectionlight {
